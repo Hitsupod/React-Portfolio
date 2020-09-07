@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import $ from 'jquery';
+// import $ from 'jquery';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
@@ -8,19 +10,8 @@ import Footer from './components/Footer';
 import Resume from './components/Resume';
 import Work from './components/Work';
 
-class App extends Component {
-  
-  constructor(props) {
-
-  }
-
-  componentDidMount() {
-
-  }
-
-  render() {
+function App() {
     return(
-
       <div className = "App">
         <Header />
         <About />
@@ -30,7 +21,6 @@ class App extends Component {
         <Footer />
       </div>
     );
-  }
 }
 
 
