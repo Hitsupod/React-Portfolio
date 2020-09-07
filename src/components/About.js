@@ -2,18 +2,24 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'react-bootstrap/Image';
-import Col from 'react-bootstrap/Col';
-import Picture from '../../public/images/'
+import Picture from '../images/DSC_0163.jpg';
 
+const imgStyle = {
+    width: "145px",
+    height: "auto"
+}
+
+const jumbostyle = {
+    backgroundColor: "grey",
+    color: "white"
+}
 
 function About() {
     return (
         <div>
-            <Jumbotron fluid>
+            <Jumbotron style = { jumbostyle } fluid>
                 <div>
-                <Col xs={6} md={4}>
-                    <Image src="../../public/images/DSC_0163.jpg" roundedCircle />
-                </Col>
+                    <Image style = { imgStyle } src= { Picture } roundedCircle />
                     <h1>I'm Reggie Littleton.</h1>
                     <p>
                     I am looking to help businesses build responsive 
@@ -25,4 +31,5 @@ function About() {
         </div>
     )
 }
+
 export default About;
