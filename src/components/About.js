@@ -3,6 +3,7 @@ import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'react-bootstrap/Image';
 import Picture from '../images/DSC_0163.jpg';
+import Logo from '../images/stack.jpg'
 
 const imgStyle = {
     width: "145px",
@@ -26,6 +27,10 @@ function About() {
                     full scale websites while optimizing user-focused 
                     for customers with various business needs. 
                     </p>
+                    <p>
+                        My skill set includes
+                    </p>
+                    <Image src = { Logo } />
                 </div>
             </Jumbotron>
         </div>

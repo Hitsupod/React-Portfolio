@@ -8,6 +8,7 @@ import Node from '../images/Nodejs.PNG';
 import Project from '../images/project.PNG';
 import Schedule from '../images/schedule.PNG';
 import Weather from '../images/weather.PNG';
+import Button from 'react-bootstrap/Button'
 
 const cardStyle = {
     backgroundColor: "grey",
@@ -28,6 +29,7 @@ function Work() {
                     as a user, login data, reserve a conference room, and post crickets on the mainpage.
                     </Card.Text>
                     </Card.Body>
+                    <Button href="https://github.com/nabi-0/Project2">Github</Button> 
                     <Card.Footer>
                     <small className="text-muted"></small>
                     </Card.Footer>
@@ -42,6 +44,7 @@ function Work() {
                     past for a particular geographical location based on the user input. 
                     </Card.Text>
                     </Card.Body>
+                    <Button href="https://github.com/Hitsupod/Server-Side-APIs--Weather-Dashboard">Github</Button> 
                     <Card.Footer>
                     <small className="text-muted"></small>
                     </Card.Footer>
@@ -55,6 +58,7 @@ function Work() {
                     A simple, minimalist take at a Portfolio.
                     </Card.Text>
                     </Card.Body>
+                    <Button href="https://github.com/Hitsupod/hitsupod.github.io">Github</Button> 
                     <Card.Footer>
                     <small className="text-muted"></small>
                     </Card.Footer>
@@ -72,6 +76,7 @@ function Work() {
                     The user can input any number of team members, and they may be a mix of engineers and interns.
                     </Card.Text>
                     </Card.Body>
+                    <Button href="https://github.com/Hitsupod/Team-Profile-Generator">Github</Button> 
                     <Card.Footer>
                     <small className="text-muted"></small>
                     </Card.Footer>
@@ -86,6 +91,7 @@ function Work() {
                     This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
                     </Card.Text>
                     </Card.Body>
+                    <Button href="https://github.com/rgauna/testProject">Github</Button> 
                     <Card.Footer>
                     <small className="text-muted"></small>
                     </Card.Footer>
@@ -100,6 +106,7 @@ function Work() {
                     run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
                     </Card.Text>
                     </Card.Body>
+                    <Button href="https://github.com/Hitsupod/Third-Party-APIs-Work-Day-Scheduler">Github</Button> 
                     <Card.Footer>
                     <small className="text-muted"></small>
                     </Card.Footer>
