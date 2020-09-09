@@ -40,7 +40,6 @@ function Work() {
                     <Card.Text>
                     A web application that retrieves historical information for a selected date in the 
                     past for a particular geographical location based on the user input. 
-                    Here is the information we want to retrieve for a historical date & location:
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -83,8 +82,8 @@ function Work() {
                     <Card.Body>
                     <Card.Title>Weather App</Card.Title>
                     <Card.Text>
-                    A web application that retrieves historical information for a selected date in the 
-                    past for a particular geographical location based on the user input. 
+                    Create a simple calendar application that allows the user to save events for each hour of the day. 
+                    This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
